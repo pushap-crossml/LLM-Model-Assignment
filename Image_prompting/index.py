@@ -54,7 +54,7 @@ Preferences:
 
 print("\n--- Interior Design Output ---")
 print(run_experiment(
-    "Images/room.png",
+    "images/room.png",
     room_prompt,
     temperature=0.6,
     top_p=0.95,
@@ -72,7 +72,7 @@ Describe each layer and how data flows.
 
 print("\n--- Diagram Explanation Output ---")
 print(run_experiment(
-    "Images/neural_network.png",
+    "images/neural_network.png",
     diagram_prompt,
     temperature=0.2,
     top_p=0.9,
@@ -94,7 +94,7 @@ Constraints:
 
 print("\n--- Recipe Output ---")
 print(run_experiment(
-    "Images/pasta.png",
+    "images/pasta.png",
     food_prompt,
     temperature=0.7,
     top_p=0.95,
